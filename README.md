@@ -18,6 +18,10 @@ Features:
 ## How to include it in your project:
 
 ```groovy
+repositories {
+	jcenter()
+}
+
 dependencies {
 	compile 'com.avast:android-styled-dialogs:2.1.0'
 }
